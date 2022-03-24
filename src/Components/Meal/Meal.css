@@ -1,0 +1,16 @@
+.food-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.foodDiv{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 45px;
+    margin: 100px 50px;
+}
+.cart-container{
+    background-color: #C52D2F;
+    padding: 30px;
+    color: white;
+    position: static;
+}
